@@ -86,6 +86,10 @@ a:hover {
     gap: 10px;
 }
 
+#servicos {
+    text-align: center;
+}
+
 p {
     text-align: left;
     font-size: 16px;

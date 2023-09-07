@@ -16,18 +16,19 @@
             </p>
         </article>
 
-        <article id="hamb" onclick="clique()">
+        <article>
 
-            <img src="imagens/cardapio.png" alt="hamburguer">
-
+            <article id="hamb" onclick="clique()">
+                <img src="imagens/cardapio.png" alt="hamburguer">
+            </article>
             <menu id="men">
 
                         <article>
                             <a href="#">Home</a>
-                            <a href="#">Empresa</a>
-                            <a href="#">Produtos</a>
-                            <a href="#">Contato</a>
-                            <a href="#">Suporte</a>
+                            <a href="#empresa">Empresa</a>
+                            <a href="#produtos">Produtos</a>
+                            <a href="#contato">Contato</a>
+                            <a href="#contato">Suporte</a>
                         </article>
 
                         <input type="button" value="Login">
@@ -53,6 +54,7 @@
     <section class="container">
 
         <article class="texto">
+            <a name="empresa"></a>
             <h2>
                 Quem somos ?
             </h2>
@@ -82,7 +84,7 @@
     </section>
 
     <article id="servicos">
-
+        <a name="produtos"></a>
         <h2 class="blue">
             Oferecemos os seguintes serviços
         </h2>
@@ -202,7 +204,7 @@
             <img src="imagens/facebook.png" alt="icone facebook">
         </article>
 
-        <article class="rodape">
+        <article name="contato" class="rodape">
             <ul>
                 <li><strong>Email:</strong> techgeniussuport@gmail.com</li>
                 <li><strong>Telefone:</strong> (11) 9999-9999</li>
@@ -212,6 +214,7 @@
 
         <article class="rodape">
             <ul>
+                <a name="contato"></a>
                 <li><strong>CEP:</strong> 00000-000</li>
                 <li><strong>Logradouro:</strong> Rua tal</li>
                 <li><strong>Bairro:</strong> jardim</li>
