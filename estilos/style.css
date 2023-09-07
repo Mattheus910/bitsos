@@ -62,6 +62,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    transform: scale(1.1);
 }
 
 #titulo {
@@ -124,15 +125,15 @@ footer {
 
 #icones {
     display: flex;
-    width: 100px;
-    margin: 10px auto;
+    width: 160px;
+    margin: 5px auto;
     gap: 10px;
 }
 
 .rodape {
   display: flex;
   width: 300px;
-  margin: auto;
+  margin: 10px auto;
 }
 
 li {
@@ -224,5 +225,9 @@ li {
 
     .rodape, #icones {
         margin: 10px 0px;
+    }
+
+    footer > #icones > a:hover {
+        transform: scale(1.1);
     }
 }
