@@ -15,6 +15,8 @@
 
 h1, h2 {
     font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+
 }
 
 header {
@@ -73,9 +75,10 @@ a:hover {
     color: #fff;
     margin: auto;
     width: 300px;
+    
 }
 
-.container {
+.container, .container1 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -94,6 +97,8 @@ p {
 
 .imagem > img {
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.39);
 }
 
 #ajuda {
@@ -199,7 +204,6 @@ li {
         flex-direction: row;
         flex-direction: row-reverse;
         padding: 0px;
-        height: 438px;
         justify-content: space-around;
     }
 
