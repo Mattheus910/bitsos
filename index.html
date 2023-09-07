@@ -16,9 +16,23 @@
             </p>
         </article>
 
-        <article>
+        <article id="hamb" onclick="clique()">
+
             <img src="imagens/cardapio.png" alt="hamburguer">
+
+            <menu id="men">
+                        <a href="#">Home</a>
+                        <a href="#">Empresa</a>
+                        <a href="#">Produtos</a>
+                        <a href="#">Contato</a>
+                        <a href="#">Suporte</a>
+
+                        <input type="button" value="Login">
+                        <input type="button" value="Cadastro">
+                    </menu>
         </article>
+
+        
 
     </header>
 
@@ -192,6 +206,19 @@
         </article>
 
     </footer>
+
+    <script>
+        function clique() {
+            var hamb = document.getElementById('hamb')
+            var menu = document.getElementById('men')
+            if (menu.style.display == 'none') {
+                menu.style.display = 'flex'
+            } else {
+                menu.style.display = 'none'
+            }
+
+        }
+    </script>
     
 </body>
 </html>
