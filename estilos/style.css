@@ -210,4 +210,15 @@ li {
     .imagens > #cod {
         height: 300px;
     }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape, #icones {
+        margin: 10px 0px;
+    }
 }
