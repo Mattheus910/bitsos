@@ -189,11 +189,16 @@ li {
 
     #titulo {
         height: 500px;
+        margin-bottom: 10px;
     }
 
     h1 {
         font-size: 50px;
         width: 500px;
+    }
+
+    #ajuda {
+        margin-top: 10px;
     }
 
     .container, .container1 {
@@ -230,8 +235,8 @@ li {
     }
 
 
-    .imagens > #cod {
-        height: 300px;
+    #cod {
+        margin-top: 55px;
     }
 
     footer {
@@ -239,6 +244,7 @@ li {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
+        margin-top: 10px;
     }
 
     .rodape, #icones {
