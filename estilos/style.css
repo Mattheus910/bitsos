@@ -161,7 +161,7 @@ li {
 
 /* configurações para desktop */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 992px) {
 
     h2 {
         font-size: 32px;
