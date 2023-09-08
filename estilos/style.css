@@ -47,8 +47,12 @@ p {
 /* cabeçalho */
 
 header {
+    background-color: #fff;
     justify-content: space-between;
     padding: 10px 50px; 
+    position: sticky;
+    top: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
 }
 
 menu {
@@ -70,6 +74,17 @@ input {
     width: 100px;
     height: 30px;
     border-radius: 5px;
+}
+
+.texto > input {
+    margin: 10px;
+}
+
+.texto > input:hover {
+    background-color: #fff;
+    color: #2539F0;
+    border: 1px solid #2539F0;
+    transform: scale(1.1);
 }
 
 /* configurações de links */
