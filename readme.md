@@ -32,8 +32,8 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 Se você tiver algum feedback, dúvida ou quiser saber mais sobre o projeto, sinta-se à vontade para entrar em contato:
 
 - [Matheus Martins] - [matheusmartins910@gmail.com]
-- [Seu LinkedIn](www.linkedin.com/in/mattheus910)
-- [Seu GitHub](https://github.com/Mattheus910)
+- [LinkedIn](www.linkedin.com/in/mattheus910)
+- [GitHub](https://github.com/Mattheus910)
 
 Agradeço por conferir o BitSOS!
 
