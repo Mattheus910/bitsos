@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe conosco</title>
+    <link rel="stylesheet" href="estilos/trabalhe.css">
+</head>
+<body>
+    <header>
+
+        <article id="logo">
+            <p>
+                BitSOS
+            </p>
+        </article>
+
+        <article>
+
+            <article id="hamb" onclick="clique()">
+                <img src="imagens/cardapio.png" alt="hamburguer">
+            </article>
+            <menu id="men">
+
+                        <article>
+                            <a href="index.html">Home</a>
+                            <a href="index.html">Empresa</a>
+                            <a href="index.html">Produtos</a>
+                            <a href="index.html">Contato</a>
+                            <a href="index.html">Suporte</a>
+                            <a href="trabalhe.html">Trabalhe conosco</a>
+                        </article>
+
+                        
+                        <input type="button" value="Login">
+                        <input type="button" value="Cadastro">
+                        
+
+            </menu>
+        </article>
+    </header>
+
+    <section id="texto">
+
+        <section>
+            <h1>Trabalhe conosco</h1>
+            <p>Na BitSOS, acreditamos que o talento é a chave para o nosso sucesso. Valorizamos a criatividade, a inovação e o espírito colaborativo que cada membro de nossa equipe traz para a mesa. Se você está em busca de um ambiente dinâmico, desafiador e repleto de oportunidades, você está no lugar certo.</p>
+        </section>
+    </section>
+
+    <section id="formulario">
+        <form action="post" autocomplete="on">
+
+            <article>
+                <label for="nome"></label>
+                <input type="text" name="nome" id="nome" autocomplete="name" placeholder=" Nome completo:" required>
+            </article>
+
+            <article>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" autocomplete="email" placeholder=" E-mail:" required>
+            </article>
+            
+            <article>
+                <label for="tel"></label>
+                <input type="tel" name="tel" id="tel" autocomplete="tel" placeholder=" Telefone:" required>
+            </article>
+
+            <article>
+                <label for="areas"></label>
+                <select name="areas" id="areas">
+                    <option value="" data-default disabled selected>Área de interesse</option>
+                    <option value="ceo">CEO</option>
+                    <option value="encReg">Encarregado regional</option>
+                    <option value="encSet">Encarregado de setor</option>
+                    <option value="tec">Técnico</option>
+                    <option value="segD">Segurança de dados</option>
+                    <option value="assD">Assistente de dados</option>
+                    <option value="assAt">Assistente de atendimentos</option>
+                    <option value="est">Estagio</option>
+                </select>
+            </article>
+
+            <article>
+                <label for="curriculo">Anexar curriculo</label>
+                <input type="file" name="curriculo" id="curriculo" accept=".pdf" required>
+            </article>
+
+            <article>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="10"></textarea>
+            </article>
+
+            <article id="botao">
+                <input type="submit" value="Enviar">
+            </article>
+
+        </form>
+    </section>
+
+    <footer>
+
+        <article id="icones">
+            <a href="#"><img src="imagens/instagram.png" alt="icone instagram"></a>
+            <a href="#"><img src="imagens/whatsapp.png" alt="icone whatsapp"></a>
+            <a href="#"><img src="imagens/linkedin.png" alt="icone linkedin"></a>
+            <a href="#"><img src="imagens/facebook.png" alt="icone facebook"></a>
+        </article>
+
+        <article name="contato" class="rodape">
+            <ul>
+                <li><strong>Email:</strong> bitsossuport@gmail.com</li>
+                <li><strong>Telefone:</strong> (11) 9999-9999</li>
+                <li><strong>WhatsApp:</strong> (11) 9999-9999</li>
+            </ul>
+        </article>
+
+        <article class="rodape">
+            <ul>
+                <a name="contato"></a>
+                <li><strong>CEP:</strong> 00000-000</li>
+                <li><strong>Logradouro:</strong> Rua tal</li>
+                <li><strong>Bairro:</strong> jardim</li>
+                <li><strong>Cidade:</strong> sus</li>
+                <li><strong>Estado:</strong> SP</li>
+            </ul>
+        </article>
+
+    </footer>
+
+    <script>
+        function clique() {
+            var hamb = document.getElementById('hamb')
+            var menu = document.getElementById('men')
+            if (menu.style.display == 'none') {
+                menu.style.display = 'flex'
+            } else {
+                menu.style.display = 'none'
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

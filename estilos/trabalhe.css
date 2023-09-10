@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 10px 50px; 
+    position: sticky;
+    top: 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
+}
+
+menu {
+    display: none;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 10px;
+}
+
+menu > article {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    color: #2539F0;
+    text-decoration: underline;
+}
+
+h1, h2, #logo > p {
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);  
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+}
+
+#texto, form {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#texto {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form > article > input {
+    height: 30px;
+    width: 100%;
+}
+
+#botao > input {
+    background-color: #2539F0;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    height: 40px;
+}
+
+ menu > input {
+    background-color: #2539F0;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #2539F0;
+}
+
+a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+#mensagem {
+    width: 100%;
+}
+
+form > article > input:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #2539F0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #2539F0;
+    color: #fff;
+}
+
+#icones {
+    width: 160px;
+    margin: 5px auto;
+    gap: 10px;
+}
+
+.rodape {
+  width: 300px;
+  margin: 10px auto;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+
+    #texto, form {
+        width: 45%;
+        margin: 20px auto;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    menu > article {
+        flex-direction: row;
+        gap: 20px;
+        margin-right: 210px;
+    }
+
+    #hamb > img {
+        display: none;
+    }
+
+    #titulo {
+        height: 500px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .rodape, #icones {
+        margin: 10px 0px;
+    }
+
+    footer > #icones > a:hover {
+        transform: scale(1.1);
+    }
+}
