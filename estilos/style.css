@@ -140,19 +140,24 @@ a:hover {
 /* configurações do rodapé*/
 
 footer {
+    display: flex;
     flex-direction: column;
+    background-color: #2539F0;
     color: #fff;
+    font-size: 14px;
 }
 
 #icones {
+    display: flex;
     width: 160px;
     margin: 5px auto;
     gap: 10px;
 }
 
 .rodape {
-  width: 300px;
-  margin: 10px auto;
+    display: flex;
+    margin: 5px auto;
+    gap: 20px;
 }
 
 li {
@@ -251,7 +256,19 @@ li {
         margin: 10px 0px;
     }
 
-    footer > #icones > a:hover {
+    .rodape {
+        width: 400px;
+    }
+
+    .rodape > article {
+        width: 100%;
+    }
+
+    #icones {
+        gap: 10px;
+    }
+
+    footer > article > #icones > a:hover {
         transform: scale(1.1);
     }
 }
